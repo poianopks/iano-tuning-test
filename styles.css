@@ -39,6 +39,11 @@ em { color: var(--gold); font-style: normal; }
 .button-ghost { border: 1px solid var(--line); }
 .button-ghost span { margin-left: 12px; font-size: 17px; }
 .placeholder-note { margin: 14px 0 0; color: #969189; font-size: 11px; }
+.trust-list { display: flex; gap: 25px; margin: 31px 0 0; padding: 0; list-style: none; }
+.trust-list li { display: flex; flex-direction: column; padding-right: 25px; border-right: 1px solid var(--line); }
+.trust-list li:last-child { padding-right: 0; border-right: 0; }
+.trust-list strong { color: var(--gold); font-family: var(--serif); font-size: 21px; }
+.trust-list span { color: var(--muted); font-size: 11px; }
 
 .hero-visual { position: relative; min-height: 385px; }
 .piano-lid { position: absolute; right: 3%; bottom: 246px; width: 84%; height: 83px; border: 10px solid #292b29; border-bottom: 0; border-radius: 100% 100% 0 0 / 100% 100% 0 0; transform: rotate(-8deg); transform-origin: bottom right; }
@@ -92,6 +97,8 @@ em { color: var(--gold); font-style: normal; }
   .hero { padding: 67px 0 38px; }
   .hero-grid, .intro-grid, .process-grid, .contact-card { grid-template-columns: 1fr; gap: 35px; }
   .hero-visual { min-height: 280px; margin-top: -12px; }
+  .trust-list { gap: 14px; }
+  .trust-list li { padding-right: 14px; }
   .piano-lid { bottom: 185px; border-width: 7px; }
   .piano-body { bottom: 62px; height: 145px; }
   .piano-body span { height: 57px; }
